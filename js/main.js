@@ -149,8 +149,8 @@ function createCountries(){
             accept: "."+country.code,
             drop: function () {
                 $(this).addClass("correct");
-                $("."+country.name).draggable('destroy');
-                changeLocation($("."+country.name).data("location"));
+                $("."+country.code).draggable('destroy');
+                changeLocation($("."+country.code).data("location"));
                 counting();
                 google.charts.setOnLoadCallback(drawChart(country.name));
             }
