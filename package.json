@@ -1,0 +1,23 @@
+{
+  "name": "u08t01_minijuego",
+  "version": "1.0.0",
+  "description": "prueba",
+  "main": "main.js",
+  "dependencies": {
+    "eslint": "^7.18.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saulbkn/U08T01.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saulbkn/U08T01/issues"
+  },
+  "homepage": "https://github.com/saulbkn/U08T01#readme"
+}
