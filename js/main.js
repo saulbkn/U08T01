@@ -186,9 +186,7 @@ function drawChart(row) {
     data.addRows(resultToShow);
 
     
-    var options = {'title':'Ubicaciones localizadas correctamente',
-                    'width':400,
-                    'height':250};
+    var options = {'title':'Ubicaciones localizadas correctamente'};
 
     var chart = new google.visualization.PieChart(document.getElementById('chart_div'));
     chart.draw(data, options);

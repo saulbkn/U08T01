@@ -11,6 +11,8 @@ $colorgray: lightgray;
 
 html, body{
     margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 
 body{
@@ -145,10 +147,12 @@ header{
         flex-basis: 50%;
         height: 250px;
         width: max-content;
+        margin: 1em;
     }
     
     #chart_div{
         flex-basis: 30%;
+        margin: 1em;
     }
 }
 

@@ -5,12 +5,14 @@
 
 html, body {
   margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
 }
 
 body {
   display: grid;
   grid-template-columns: auto 30%;
-  grid-template-rows: 50px 40px auto auto;
+  grid-template-rows: 50px 40px 400px auto;
 }
 
 header {
@@ -107,7 +109,7 @@ header {
   grid-area: 2/2/4/3;
 }
 .section2 #map {
-  height: 350px;
+  height: 100%;
 }
 
 .section3 {
@@ -123,9 +125,11 @@ header {
   flex-basis: 50%;
   height: 250px;
   width: max-content;
+  margin: 1em;
 }
 .section3 #chart_div {
   flex-basis: 30%;
+  margin: 1em;
 }
 
 /*
