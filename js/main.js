@@ -79,7 +79,7 @@ function buildBody(){
 
     idInterval = setInterval(() => {
         contadorInterval++;
-        changeTextTime("Tiempo: "+contadorInterval);
+        changeTextTime("Tiempo: "+contadorInterval + "s");
     }, 1000);
 
     createCountries();

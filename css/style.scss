@@ -83,6 +83,7 @@ header{
             min-width: 70px;
             background-color: $colorlightgreen;
             text-align: center;
+            border-radius: 5px;
         }
     
     }
@@ -98,17 +99,22 @@ header{
         
         .country{
             min-width: 100px;
+            border-radius: 5px;
             
             .name{
                 padding: 1em;
                 background-color: $colorlightgreen;
                 text-align: center;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
             }
     
             .finish{
                 padding: 1.5em;
                 background-color: $colorwhite;
                 border: 1px solid $colorlightgreen;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
             }
     
             .correct{

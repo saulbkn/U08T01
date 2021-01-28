@@ -71,6 +71,7 @@ header {
   min-width: 70px;
   background-color: #90ee90;
   text-align: center;
+  border-radius: 5px;
 }
 .section1 .section1_2 {
   flex-basis: 50%;
@@ -82,16 +83,21 @@ header {
 }
 .section1 .section1_2 .country {
   min-width: 100px;
+  border-radius: 5px;
 }
 .section1 .section1_2 .country .name {
   padding: 1em;
   background-color: #90ee90;
   text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .section1 .section1_2 .country .finish {
   padding: 1.5em;
   background-color: white;
   border: 1px solid #90ee90;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .section1 .section1_2 .country .correct {
   background-color: #b0c4de;
