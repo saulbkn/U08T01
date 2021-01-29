@@ -1,0 +1,22 @@
+
+.section3{
+    grid-area: 4 / 1 / 5 / 3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    #curve_chart{
+        align-self: center;
+        flex-basis: 50%;
+        height: 250px;
+        width: max-content;
+        margin: 1em;
+    }
+    
+    #chart_div{
+        flex-basis: 30%;
+        margin: 1em;
+    }
+}
